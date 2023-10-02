@@ -1,0 +1,161 @@
+body {
+    background-color: lightblue;
+  }
+hintrested{
+  color: rgba(54, 54, 218, 0.833);
+  font-size: 40px;
+  background-color: rgba(138, 138, 240, 0.633);
+  border-style:groove;
+  float: left;
+  margin: 1px, 0px;
+  padding: 1px, 0px;
+  width: 100%;
+  
+}
+hinfo{ 
+  color: rgba(54, 54, 218, 0.833);
+  font-size: 35px;
+  margin-top:px;
+}
+phone{
+  font-size: 25px;
+  word-spacing: 200px;
+  font-weight:bold;
+}
+pemail{
+  font-size: 25px;
+  word-spacing: 200px;
+  font-weight:bold;
+}
+.phonedeta{
+  background-color: rgba(0, 255, 255,0.633);
+  width: 40%;
+  min-width: 25%;
+  border-style: groove;
+}
+.email{
+  background-color: rgba(0, 255, 255,0.633);
+  width: 100%;
+  min-width: 25%;
+}
+.spacer{
+  background-color: aquamarine;
+  width: 40%;
+  min-width: 25%;
+  border-radius:1px;
+  border-top:none;
+}
+.media{
+  width: 300px;
+  position: relative;
+  top: 9px;
+  left: 2px; 
+}
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+.media {
+  display: flex;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  resize: vertical;
+  padding: 5px;  
+  border: 1px solid #ccc; 
+  border-radius: 3px;
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+input[type=submit] {
+  background-color: rgb(33, 164, 208);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #da3f3f;
+}
+.container {
+  border-radius: 5px;
+  background-color: rgba(138, 138, 240, 0.633);
+  padding: 20px;
+}
+.flex-container-Contact {
+  display: flex;
+}
+.flex-container-Contact-header {
+  display: flex;
+  background-color: rgba(138, 138, 240, 0.633);
+  border-style: groove;
+  margin: 10px;
+  padding: 5px;
+  font-size: 35px;
+  color: rgb(54, 54, 218, 0.833);
+  flex: 1;
+  font-weight: bold;
+}
+
+.flex-container-Contact > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 5px;
+  font-size: 25px;
+  flex: 1;
+}
+.dog {
+  width:200px;
+  height:200px;
+}
+.FunButton{
+  background-color: #4CAF50;
+  border: solid black; 
+  border-radius: 1px;
+  border-width: 0.5px;
+  color: rgb(0, 0, 0); 
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.FunButton:hover{
+  background-color: #4CAF50;
+  border: solid rgb(255, 255, 255); 
+  border-radius: 1px;
+  border-width: 0.5px;
+  color: rgb(255, 255, 255); 
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.tooltip{
+  visibility: hidden;
+  position: relative;
+}
+.buttoncon:hover .tooltip{
+  visibility: visible;
+}

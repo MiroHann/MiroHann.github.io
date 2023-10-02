@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="contactstyle.css">
+  <link rel="stylesheet" href="webstyle.css">
+</head>
+<body>
+  <div class="Header">
+    <a class="Name">Miro Hannikainen</a>
+    <b>Software developer || It enjoyer </b>
+    <div class="Header-Buttons">
+      <a class="Header" href="./index.htm">Home</a>
+      <a href="./contact.htm">Contact</a>
+    </div>
+  </div>
+  &nbsp
+  <div class="FlexBoxes">
+  <div class="flex-container-Contact-header">
+    <div>Leave me a message!</div>
+  </div>
+  <div class="flex-container-Contact"> 
+    <div>
+      <div class="container">
+        <form id="form">
+          <label for="firstname">First Name</label>
+          <input type="text" id="firstname" name="fname" placeholder="Your name.." >
+          <label for="lastname" >Last Name</label>
+          <input type="text" id="lastname" name="lname" placeholder="Your last name..">
+          <label for="emailadress">Email</label> 
+          <input type="text" id="emailadress" name="email" placeholder="Your emailadress..">
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="comment" placeholder="Write something.." style="height:200px"></textarea>
+          <input type="submit" onclick="Submit()" value="Submit" id="submitbutton">
+        </form>
+      </div>  
+      <script src="ContactJS.js"></script>
+    </div>
+  </div>
+</div>
+  &nbsp   
+  <hintrested>
+  Other Sites I Frequent
+  </hintrested>
+  <div class="media">
+    <div class="column">
+  <pimage><a href="https://www.linkedin.com/in/miro-hannikainen-469316262/"  target="_blank"> <img src="./resources/images/linkedin.webp" alt="Linkedin" style="width:60%"/></a></pimage>
+  </div>
+  <div class="column">
+  <pimage><a href="https://github.com/MiroHoo?tab=repositories" target="_blank"><img src="./resources/images/github.webp" alt="GitHub" style="width:60%"/></a></pimage>
+  </div>
+  </div>
+  &nbsp
+  <div>
+  <hintrested>
+    Some of my details
+  </hintrested>
+  <div class="infoDiv">
+  <hinfo>Email: MiroHannikainen@gmail.com</hinfo>
+  <br>
+  <hinfo>Phone: 0504099066</hinfo>
+</div>
+</div>
+  <div class="FullFooter">
+    &nbsp
+<footer class="MainFooter">
+    &nbsp
+    Website Resources
+    <div class ="BottomTexts">    
+    <a href="./index.htm">Home</a><pivader>||</pivader><a href="./contact.htm">Contact</a><pivader>
+    </div>
+    <div class="buttoncon"><button class="FunButton" onclick="Images()">Press me for an image!</button>
+    <div class="tooltip">Funny Dog</div></div>
+    <img id="dog" class="dogImage"></img> 
+</footer>
+</div>
+</body>
+</html>
