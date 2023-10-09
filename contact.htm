@@ -4,7 +4,7 @@
   <link rel="stylesheet" href="contactstyle.css">
   <link rel="stylesheet" href="webstyle.css">
 </head>
-<body>
+<body onload="init();">
   <div class="Header">
     <a class="Name">Miro Hannikainen</a>
     <b>Software developer || It enjoyer </b>
@@ -22,15 +22,15 @@
     <div>
       <div class="container">
         <form id="form">
-          <label for="firstname">First Name</label>
+          <label for="firstname">First Name</label><a style="color:red;" class="mandatory">*<span class="mandatorytext">this field is mandatory</span></a>
           <input type="text" id="firstname" name="fname" placeholder="Your name.." >
           <label for="lastname" >Last Name</label>
           <input type="text" id="lastname" name="lname" placeholder="Your last name..">
-          <label for="emailadress">Email</label> 
+          <label for="emailadress">Email</label><a style="color:red;" class="mandatory">*<span class="mandatorytext">this field is mandatory</span></a>
           <input type="text" id="emailadress" name="email" placeholder="Your emailadress..">
-          <label for="subject">Subject</label>
+          <label for="subject">Subject</label><a style="color:red;" class="mandatory">*<span class="mandatorytext">this field is mandatory</span></a>
           <textarea id="subject" name="comment" placeholder="Write something.." style="height:200px"></textarea>
-          <input type="submit" onclick="Submit()" value="Submit" id="submitbutton">
+          <div><input type="submit" value="Submit" id="submitbutton"> <a class="warning" id="warning">text</a></div>
         </form>
       </div>  
       <script src="ContactJS.js"></script>
