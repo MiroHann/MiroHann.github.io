@@ -16,32 +16,42 @@ class connection{
       console.log("connection error");
     });
   }
-}
+  networktest(){
+    return new Promise((resolve, reject ) => {
+      fetch("http://127.0.0.1:3000/comment/", {
+      }).then(response => {
+        if(!response.ok){
+        reject('Correction Error');
+        } else {
+        resolve("true");
+        }
+      }) 
+      .catch(error => {
+         reject('Error ' + error.message);
+      });
+     })
+  }
+} 
 class verification extends connection{
   constructor() {
     super();
-  }
+  }  
+  
   connectionTest(FormData) {
-    fetch("http://127.0.0.1:3000/comment/", {
-    })
-      .then(response => {
-        if (!response.ok) {
-          console.log("Network Error");
-        } else {
-          console.log("The connection was made"); 
-          super.post(FormData);
-        }
-      }).catch(function () {
-        console.log("connection error");
-        warningtext.innerHTML = "Sorry, There was a connection error, please try again later!";
-        warningtext.style.visibility = 'visible';
-        window.setTimeout(function(){
-          warningtext.style.visibility = 'hidden';
-        }, 20000);
-      });
+   var promise = this.networktest();
+   promise.then((value) =>{
+    console.log(value);
+    if(value == "true"){
+      super.post(FormData);
+    }
+   }).catch(error =>{
+    console.log("no good");
+    warningtext.innerHTML = "Sorry there was a connection error please try again later!";
+    warningtext.style.visibility = 'visible';
+   });
   }
   formverification(Form) {
-    if (Form.get("fname")  != "" && Form.get("email") != "" && Form.get("comment") != "") {
+    if (Form.get("fname")  != "" && Form.get("email") != "" && Form.get("email").includes("@") == true && Form.get("comment") != "") {
       this.connectionTest(new URLSearchParams(Form));
     } else {
       warningtext.innerHTML = "Please check the imput fields";
@@ -54,7 +64,10 @@ class verification extends connection{
       } 
       if (Form.get("email") === ""){
         email.style.backgroundColor = 'rgba(' + 255 + ',' + 99 + ',' + 71 + ',' + 0.5 + ')'
-      } 
+      } else if(Form.get("email").includes("@") == false){
+        email.style.backgroundColor = 'rgba(' + 255 + ',' + 99 + ',' + 71 + ',' + 0.5 + ')'
+        warningtext.innerHTML = "Please check the written email adress!";
+      }
       if (Form.get("comment") === "") {
         subject.style.backgroundColor = 'rgba(' + 255 + ',' + 99 + ',' + 71 + ',' + 0.5 + ')'
       }

@@ -7,7 +7,7 @@ const ObjectImages = {
 };
 const Images = ["./resources/images/Monkey-Selfie2.jpg", "./resources/images/Monkey-Selfie3.jpg", "./resources/images/Monkey-Selfie.jpg"];
 function questionStart() {
-    window.setTimeout(question, 20);
+    window.setTimeout(question, 20000000);
 }
 function ImageTimer() {
     window.setInterval(image, 2000)

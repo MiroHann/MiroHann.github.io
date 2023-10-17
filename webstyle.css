@@ -20,11 +20,6 @@ body {
   line-height: 25px;
   border-radius: 4px;
 }
-
-.ContentMain {
-  float: right;
-}
-
 .Header b {
   float: left;
   line-height: 3px;
@@ -49,6 +44,7 @@ body {
 }
 
 .Skills {
+  
   border-collapse: collapse;
   width: 100%;
   margin: 25px 0;
@@ -64,6 +60,7 @@ body {
   .DividerRight {
     visibility: hidden;
   }
+
   .DividerRight {
     width: 100%
   }
@@ -91,10 +88,12 @@ body {
     flex: 1 100%;
     flex-basis: 100%;
   }
-  .InteractiveGal{
+
+  .InteractiveGal {
     width: 50%;
     height: 50%;
   }
+
   .HeaderName {
     order: 1;
   }
@@ -102,9 +101,11 @@ body {
   .ImageLeft {
     order: 2;
   }
-  .MonkeyImg{
+
+  .MonkeyImg {
     width: 20%;
   }
+
   .HeaderAboutMe {
     order: 3;
   }
@@ -136,21 +137,27 @@ body {
   #WP3 {
     order: 6;
   }
-  .ImageContainer{
+
+  .ImageContainer {
     grid-column: 1/9;
   }
-  .Info{
+
+  .Info {
     grid-row: 6;
     grid-column: 9/9;
+    text-align: center;
   }
-  .Interaction{
+
+  .Interaction {
     grid-row: 7;
     grid-column: 1/9;
   }
-  .grid-container2{
+
+  .grid-container2 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-  }   
+  }
 }
+
 .Header-Buttons {
   float: right;
 }
@@ -179,8 +186,8 @@ img:hover {
 table,
 td,
 th {
-  grid-column:3/9;
-  grid-row:3;  
+  grid-column: 3/9;
+  grid-row: 3;
   border: 1px solid black;
   border-collapse: collapse;
   background-color: #B6E1E7;
@@ -190,6 +197,7 @@ th {
   font-family: Sans-serif;
   text-align: left;
 }
+
 .MainFooter {
   color: rgba(54, 54, 218, 0.833);
   font-size: 30px;
@@ -253,7 +261,7 @@ th {
 .WorkH {
   color: rgba(54, 54, 218, 0.833);
   font-size: 40px;
-  background-color: rgba(182, 225, 231,0.6);
+  background-color: rgba(182, 225, 231, 0.6);
   font-weight: bold;
   margin: 1px;
   margin-bottom: 30px;
@@ -263,13 +271,14 @@ th {
   grid-column: 1 / 9;
   grid-row: 8;
   text-align: center;
+  grid-gap: 50px;
 }
 
 .WorkH {
   border: groove;
   text-align: center;
   flex-basis: 31.90%;
-  gap: 10px; 
+  gap: 10px;
   flex-grow: 0.9;
 }
 
@@ -278,7 +287,8 @@ th {
   grid-column: 1/3;
   background-color: rgba(138, 138, 240, 0.133);
 }
-.InteractiveGal{
+
+.InteractiveGal {
   display: block;
   width: auto;
   margin-left: auto;
@@ -301,11 +311,13 @@ th {
 
 .Info {
   grid-row: 5;
-  grid-column:3/9;
+  grid-column: 3/9;
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
-  padding: 10px 0px;
   background-color: rgba(138, 138, 240, 0.133);
+  border-style: groove;
+  margin: 10px;
+  padding: 5px;
 }
 
 .flex-container1 {
@@ -355,9 +367,12 @@ th {
 }
 
 .ParagraphRight {
+  border-style: groove;
+  margin: 10px;
+  padding: 5px;
+  font-size: 25px;
   flex-grow: 1;
-  flex-basis: 79%;
-  color: rgba(54, 54, 218, 0.833);
+  flex-basis: 78.5%;
   font-size: 25px;
   background: rgb(182, 225, 231);
   background: linear-gradient(90deg, rgba(182, 225, 231, 1) 33%, rgba(51, 230, 255, 0.1578433388157895) 51%);
@@ -365,7 +380,6 @@ th {
 
 .work {
   flex-basis: 33.333%;
-  
 }
 
 .grid-container2 {
@@ -399,19 +413,21 @@ th {
 
 .ParagraphLeft {
   font-size: 25px;
-  top: 9px;
   float: right;
   min-width: 40%;
   font-family: 'Times New Roman', Times, serif;
   padding: 10px 0px;
   background: rgb(182, 225, 231);
   background: linear-gradient(90deg, rgba(182, 225, 231, 1) 33%, rgba(51, 230, 255, 0.1578433388157895) 51%);
+  border-style: groove;
+  margin: 10px;
+  padding: 5px;
 }
 
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: #a7ced3;
+  background-color: rgba(167, 206, 211, 0.5);
 }
 
 .flex-container>article {
@@ -451,6 +467,11 @@ th {
   background: linear-gradient(90deg, rgba(182, 225, 231, 1) 33%, rgba(51, 230, 255, 0.1578433388157895) 51%);
 }
 
+.prev {
+  background: rgb(51, 230, 255);
+  background: linear-gradient(90deg, rgba(51, 230, 255, 0.1578433388157895) 33%, rgba(182, 225, 231, 1) 51%);
+}
+
 .next:hover,
 .prev:hover {
   padding: 14px 28px;
@@ -461,17 +482,6 @@ th {
   background-color: rgba(138, 138, 240, 0.633);
   color: rgba(54, 54, 218, 0.833);
 }
-
-.imgPrev {
-  width: 20%;
-  float: left;
-}
-
-.imgNext {
-  width: 20%;
-  float: right;
-}
-
 .imgPrev,
 .imgNext {
   padding: 10px 8px;
@@ -480,7 +490,20 @@ th {
   background: linear-gradient(90deg, rgba(182, 225, 231, 1) 33%, rgba(51, 230, 255, 0.1578433388157895) 51%);
   text-align: center;
 }
+.imgPrev,
+.imgNext {
+  width: 20%;
+}
 
+.imgNext {
+  float: right;
+}
+
+.imgPrev {
+  float: left;
+  background: rgb(51, 230, 255);
+  background: linear-gradient(90deg, rgba(51, 230, 255, 0.1578433388157895) 33%, rgba(182, 225, 231, 1) 51%);
+}
 .imgPrev:hover,
 .imgNext:hover {
   padding: 10px 8px;
