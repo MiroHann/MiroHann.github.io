@@ -30,7 +30,7 @@
   #  <span style="color:yellow;">JAVA </span>
   1. Simple interactions (like alerts on button click).
   - Tämä varmaan täytyy ajastimessa joka aloitetaan heti sivun latauksessa joka laukaisee alertin nettisivulla joka kysyy käyttäjältä tykkääkö hän nettisivusta.
-  ![Image of the alert](/READMEASSESTS/alert.png)
+  ![Image of the alert](/READMEASSETS/alert.png)
   2. Multiple event listeners and basic DOM manipulations.
   - Nettisivulla on form, 4 nappia, linkkejä jotka kaikki sisältävät kuuntelijoita. Napit tekevät DOM manipuloitia galleriassa sekä ajastettu alert joka kysyy käyttäjän mielipidettä vaihtaa otsikon vieressä olevaa emojia!
   3. Use of arrays, objects, and functions.
