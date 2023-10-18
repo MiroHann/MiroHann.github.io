@@ -20,12 +20,12 @@
  - Tämän näkee jo heti nettisivun avatessa sillä värit ja fontit ovat muutettuja
  2. **Use of classes and IDs to style specific elements.**
  - Avatessa Webstyle tai ContactStyle CSS teidostot voi niissä heti nähdä molempia toteutus tapoja! Käytin enemmän Class pohjaista osoitusta, mutta responsiivisuuden ohjaavassa osiossa käytin myös hiukan ID pohjaista osoitusta!
- ![Kuva ID pohjaisesta osoituksesta!](/READMEASSESTS/IDOsoitus.png)
+ ![Kuva ID pohjaisesta osoituksesta!](/READMEASSETS/IDOsoitus.png)
  3. **Implementation of responsive design elements.**
  - Nämä näkee vaihtaessa puheli näkymään jolloin etusivulla olevat elementit muutuvat tehdäkseen sivusta luettavamman. 
  - Etusivulla olevat flexboxit muutuvat column orientaatioon näytön koon muutuessa tarpeeksi pieneksi!
  - Galleria elementti muutuu hieman tiivimmäksi jotta sitä on helpompi käyttää!
- ![Kuva ID pohjaisesta osoituksesta!](/READMEASSESTS/Responsive.gif)
+ ![Kuva ID pohjaisesta osoituksesta!](/READMEASSETS/Responsive.gif)
  4. **Use of layouts for advanced user interfaces (arrays, float, flexbox, css grid)**
  - Nettisivulla on käytetty molempia Flex-boxeja sekä Gridejä. Etusivulla on kolme flex-boxia ja grid.
  5. **Styling demonstrates a strong grasp of layout principles, aesthetics, and user experience.of the content.**
@@ -34,7 +34,7 @@
   #  <span style="color:yellow;">JAVA </span>
   1. **Simple interactions (like alerts on button click).**
   - Tämä varmaan täytyy ajastimessa joka aloitetaan heti sivun latauksessa joka laukaisee alertin nettisivulla joka kysyy käyttäjältä tykkääkö hän nettisivusta.
-  ![Image of the alert](/READMEASSESTS/alert.png)
+  ![Image of the alert](/READMEASSETS/alert.png)
   2. **Multiple event listeners and basic DOM manipulations.**
   - Nettisivulla on lomake elementti, 4 nappia, linkkejä jotka kaikki sisältävät kuuntelijoita. 
   - Napit tekevät DOM manipuloitia galleriassa vaihtaakseen kuvaa ja muita elementtejä!
