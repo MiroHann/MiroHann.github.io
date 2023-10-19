@@ -23,7 +23,7 @@ class connection{
         if(!response.ok){
         reject('Correction Error');
         } else {
-        resolve("true");
+        resolve('true');
         }
       }) 
       .catch(error => {
@@ -35,13 +35,14 @@ class connection{
 class verification extends connection{
   constructor() {
     super();
-  }  
-  
+  }   
   connectionTest(FormData) {
-   var promise = this.networktest();
-   promise.then((value) =>{
+   this.networktest()
+   .then((value) =>{
     console.log(value);
     if(value == "true"){
+      warningtext.style.visibility = 'hidden';
+      alert("Thank you! Your message has been received!")
       super.post(FormData);
     }
    }).catch(error =>{
@@ -51,7 +52,7 @@ class verification extends connection{
    });
   }
   formverification(Form) {
-    if (Form.get("fname")  != "" && Form.get("email") != "" && Form.get("email").includes("@") == true && Form.get("comment") != "") {
+    if (Form.get("fname") != "" && Form.get("email") != "" && Form.get("email").includes("@") == true && Form.get("comment") != "") {
       this.connectionTest(new URLSearchParams(Form));
     } else {
       warningtext.innerHTML = "Please check the imput fields";

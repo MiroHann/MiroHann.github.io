@@ -188,7 +188,7 @@ td,
 th {
   grid-column: 3/9;
   grid-row: 3;
-  border: 1px solid black;
+  border: 2px solid rgba(0, 0, 0, 0.433);
   border-collapse: collapse;
   background-color: #B6E1E7;
   font-size: calc(15px + .4vw);
@@ -359,7 +359,7 @@ th {
 .MonkeyImg {
   display: block;
   height: 400px;
-  max-width: 80%;
+  max-width: 90%;
   width: auto;
   margin-left: auto;
   margin-right: auto;
