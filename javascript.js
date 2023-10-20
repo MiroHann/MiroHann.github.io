@@ -7,6 +7,7 @@ function init(){
     window.setTimeout(question, 200000);
     ImageTimer(); 
     tableinit(); 
+    Gallery.GalClickHandler();
 }
 function ImageTimer() {
     const imgarray = document.querySelectorAll(".MonkeyImg");
@@ -66,9 +67,9 @@ class galleryhandler{
     constructor(){
         this.Image1.ImgSrc = ["./resources/images/Monkey_invention.jpg", "./resources/images/Monkey-Selfie.jpg", "./resources/videos/placeholdervideo.mp4"]
         this.Image1.Info = "Introducing the latest in fruity technology - the Banana Phone! This delightful device combines the convenience of a smartphone with the charm of a banana. With its peel-to-answer feature and a 'split-screen' display, it's a-peeling to users of all ages. Whether you're making a potassium-packed call or checking your daily fruit intake, the Banana Phone is the ultimate blend of fun and functionality. It's the talk of the town and the top choice for those seeking a truly a-mazing mobile experience!"
-        this.Image2.ImgSrc = ["./resources/images/Monkey_invention2.jpg", "./resources/images/Monkey-Selfie3.jpg"]
+        this.Image2.ImgSrc = ["./resources/images/Monkey_invention2.jpg", "./resources/videos/placeholdervideo2.mp4"]
         this.Image2.Info = "Step into the future with the Banana Phone, where innovation meets a-peel! This futuristic fruit device is not only a conversation starter but also a conversation finisher, with its smoothie-quick connection speeds and bunches of cool features. Its ergonomic design fits perfectly in your hand, and the banana-themed emojis will have you going bananas with excitement. So go ahead, split from the ordinary and embrace the yellow side of technology with the Banana Phone!"
-        this.Image3.ImgSrc = ["./resources/images/Monkey_invention3.png", "./resources/images/Monkey-Selfie2.jpg"]
+        this.Image3.ImgSrc = ["./resources/images/Monkey_invention3.png", "./resources/images/Monkey-Selfie2.jpg", "./resources/images/Monkey_invention.jpg"]
         this.Image3.Info = "Banana Phones: The Future is Fruit-tastic! With a sleek, yellow design and a 'peel and dial' interface, these fruity gadgets are taking the tech world by storm. They're not just a snack; they're a statement! Whether you're slipping into a serious business call or sharing a tropical joke, the Banana Phone is the berry best way to stay connected. It's time to go bananas for communication with a twist!"
         this.Objects = [this.Image1, this.Image2, this.Image3]
         document.getElementById('gallery1').src = this.Image1.ChangeImage();
@@ -81,7 +82,7 @@ class galleryhandler{
             this.Gallerystate--;
         } else if (this.Gallerystate == 3 && name === 'next') {
             this.Gallerystate = 1
-        } else {
+        } else if (this.Gallerystate == 1 && name === 'prev'){
             this.Gallerystate = 3
         }
         switch (this.Gallerystate) {
@@ -161,7 +162,7 @@ ImgClickHandler(name) {
         } else {
             $("#gallerycontainer #gallery" + galstate).fadeOut(0);
             $("#gallerycontainer #gallery").fadeOut(0);
-            document.getElementById('gallery' + galstate).src = this.Objects[object].ChangeImage();
+            document.getElementById('gallery').src = this.Objects[object].ChangeImage();
             $("#gallerycontainer #gallery").fadeIn(300);
         }
     }

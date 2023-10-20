@@ -55,7 +55,7 @@ class verification extends connection{
     if (Form.get("fname") != "" && Form.get("email") != "" && Form.get("email").includes("@") == true && Form.get("comment") != "") {
       this.connectionTest(new URLSearchParams(Form));
     } else {
-      warningtext.innerHTML = "Please check the imput fields";
+      warningtext.innerHTML = "Please check the input fields";
       warningtext.style.visibility = 'visible';
       window.setTimeout(function(){
         warningtext.style.visibility = 'hidden';
