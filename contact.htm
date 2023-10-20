@@ -19,9 +19,9 @@
   <h class="flex-container-Contact-header">
     <div>Leave me a message!</div>
   </h>
-  <div class="flex-container-Contact"> 
-    <div>
-      <div class="container">
+  <section class="flex-container-Contact"> 
+    <article>
+      <article class="container">
         <form id="form">
           <label for="firstname">First Name</label><a style="color:red;" class="mandatory">*<span class="mandatorytext">this field is mandatory</span></a>
           <input type="text" id="firstname" name="fname" placeholder="Your name.." >
@@ -33,29 +33,29 @@
           <textarea id="subject" name="comment" placeholder="Write something.." style="height:200px"></textarea>
           <div><input type="submit" value="Submit" id="submitbutton"> <a class="warning" id="warning">text</a></div>
         </form>
-      </div>  
+      </article>  
       <script src="ContactJS.js"></script>
-    </div>
-  </div>
+    </article>
+  </section>
 </section>
   &nbsp   
 <section class="flex-container-Contact2">
   <h id="other" class="intrestedheader">
   Other Sites I Frequent
   </h>
-  <div class="media">
+  <article class="media">
     <div class="column">
   <pimage class="icons"><a href="https://www.linkedin.com/in/miro-hannikainen-469316262/"  target="_blank"> <img src="./resources/images/linkedin.webp" alt="Linkedin" style="width:60%"/></a></pimage>
   </div>
   <div class="column">
   <pimageclass="icons"><a href="https://github.com/MiroHoo?tab=repositories" target="_blank"><img src="./resources/images/github.webp" alt="GitHub" style="width:60%"/></a></pimage>
   </div>
-  </div>  
+  </article>  
   &nbsp
   <h id="detailhead" class="intrestedheader">
   Some of my details
   </h>
-  <div class="infoDiv">
+  <article class="infoDiv">
   <br><br>
   <hinfo>Email: ILuvBananas@Jungle.ru</hinfo>
   <br><br>
@@ -64,21 +64,20 @@
   <hinfo>PObox: P.O. Box 1234 Banana Grove Lane</hinfo>
   <br><br>
   <hinfo><a href="./resources/images/Monkey-Selfie.jpg"  target="_blank" download="My_Cv">My Cv</a></hinfo>
-</div>
+</article>
 </section>
-</div>
-  <div class="FullFooter">
+  <footer class="FullFooter">
     &nbsp
-<footer class="MainFooter">
+<section class="MainFooter">
     &nbsp
     Website Resources
-    <div class ="BottomTexts">    
+    <nav class ="BottomTexts">    
     <a href="./index.htm">Home</a><pivader>||</pivader><a href="./contact.htm">Contact</a><pivader>
-    </div>
-    <div class="buttoncon"><button class="FunButton" onclick="Images()">Press me for an image!</button>
-    <div class="tooltip">Funny Dog</div></div>
+    </nav>
+    <figure class="buttoncon"><button class="FunButton" onclick="Images()">Press me for an image!</button>
+    <figcaption class="tooltip">Funny Dog</figcaption></figure>
     <img id="dog" class="dogImage"></img> 
+</section>
 </footer>
-</div>
 </body>
 </html>
