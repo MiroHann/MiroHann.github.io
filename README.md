@@ -40,7 +40,7 @@ Hei, rakentamani prototyyppi portfolion on tarkoitus olla harjoitusta tulevaisuu
   #  <span style="color:yellow;">JAVA </span>
   1. **Simple interactions (like alerts on button click).**
   - Tämä varmaan täytyy ajastimessa joka aloitetaan heti sivun latauksessa joka laukaisee alertin nettisivulla joka kysyy käyttäjältä tykkääkö hän nettisivusta.
-  - Myös contact sivun from antaa alertin jos viesti saadaan lähetettyä!
+  - Myös contact sivun from antaa alertin jos viesti saadaan lähetettyä submit nappulan painamisen jälkeen jonka näkee edeltävässä demovideossa!
   ![Image of the alert](/READMEASSETS/alert.png)
   2. **Multiple event listeners and basic DOM manipulations.**
   - Nettisivulla on lomake elementti, 4 nappia, linkkejä jotka kaikki sisältävät kuuntelijoita. 
