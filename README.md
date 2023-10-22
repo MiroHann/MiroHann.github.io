@@ -43,6 +43,7 @@ Hei, rakentamani prototyyppi portfolion on tarkoitus olla harjoitusta tulevaisuu
   - Myös contact sivun from antaa alertin jos viesti saadaan lähetettyä submit nappulan painamisen jälkeen jonka näkee edeltävässä demovideossa!
 
   ![Image of the alert](/READMEASSETS/alert.png)
+  
   2. **Multiple event listeners and basic DOM manipulations.**
   - Nettisivulla on lomake elementti, 4 nappia, linkkejä jotka kaikki sisältävät kuuntelijoita. 
   - Napit tekevät DOM manipuloitia galleriassa vaihtaakseen kuvaa ja muita elementtejä!
