@@ -31,7 +31,9 @@ Hei, rakentamani prototyyppi portfolion on tarkoitus olla harjoitusta tulevaisuu
  - Etusivulla olevat flexboxit muutuvat column orientaatioon näytön koon muutuessa tarpeeksi pieneksi!
  - Galleria elementti myös muuttuu column muotoon jotta sitä on helpompi käyttää ja lukea!
  - Pääotsikkon orientaatio muutuu myös täysin!
+
  ![Kuva ID pohjaisesta osoituksesta!](/READMEASSETS/Responsive.gif)
+ 
  4. **Use of layouts for advanced user interfaces (arrays, float, flexbox, css grid)**
  - Nettisivulla on käytetty molempia Flex-boxeja sekä Gridejä. Gridin näkee index.htm tiedostostossa ja flex boxeja näkee molemmissa contact ja index sivuilla
  5. **Styling demonstrates a strong grasp of layout principles, aesthetics, and user experience.of the content.**
