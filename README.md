@@ -66,13 +66,14 @@ Hei, rakentamani prototyyppi portfolion on tarkoitus olla harjoitusta tulevaisuu
 
   #  <span style="color:red;">ASYNCHRONOUS OPERATIONS</span>
   1. **Use of timers**
-  - Heti ensimmäisellä sivulla näkee vaihtuvan kuvan joka käyttää ajastinta. Ensimmäiseltä sivulta myös löytyy ajastettu alertti joka pomppaa käyttäjälle tietyn ajan täyttessä. josta löytyy JAVA osuudesta kuva! 
+  - Heti ensimmäisellä sivulla näkee vaihtuvan kuvan joka käyttää ajastinta.
+  - Ensimmäiseltä sivulta myös löytyy ajastettu alertti joka pomppaa käyttäjälle tietyn ajan täyttessä. josta löytyy JAVA osuudesta kuva! 
   2. **Successful implementation of an AJAX call or Fetch**
-  - Contact sivulla on formi joka tekee POSTin tietokantaan josta löytyy kohdassa viisi demovideo sekä contact sivulla on myös alaviittessä nappi jolla voi hakea kuvan koirasta https://dog.ceo/api/breeds/image/random apia käytteäen. Molemmat käyttävät fetchiä!
+  - Contact sivulla on lomake elementti joka tekee POSTin tietokantaan josta löytyy kohdassa viisi demovideo sekä contact sivulla on myös alaviittessä nappi jolla voi hakea kuvan koirasta https://dog.ceo/api/breeds/image/random apia käytteäen. Molemmat käyttävät fetchiä!
   3. **Data from the asynchronous call is displayed on the webpagev**
   - Contact sivulla on alaviitteessä nappi jossa lukee "press me for an image!" jos paina nappia tekee nettisivu API callin fetchiä käyttäen https://dog.ceo/api/breeds/image/random API:ta
   4. **Error handling is implemented (for failed API calls, etc.)**
-  - Formissa on POSTi jossa on virheen käsittelyä. Jos kokeilet painaa sitä antaa se virheen ensin tyhjistä kentistä, mutta jos kentät ovat täytetty valittaa se verkko ongelmasta nettisivulla.
+  - Formissa on POSTi jossa on virheen käsittelyä. Jos kokeilet painaa sitä antaa se virheen ensin tyhjistä kentistä, mutta jos kentät ovat täytetty valittaa se verkko ongelmasta nettisivulla. (email osio vaatii "@" merkin)
  5. **Effective use of asynchronous data to enhance user experience (like filtering, sorting).**
  - Form käyttää fetch kirjastoa lähettääkseen POST methodilla tiedot tietokantaan.
  - Formissa on myös virheen käsittely joka estää POST methodin yrityksen jos yhetyttä ei saada tehtyä backendiin.
