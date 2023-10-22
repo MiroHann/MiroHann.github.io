@@ -41,6 +41,7 @@ Hei, rakentamani prototyyppi portfolion on tarkoitus olla harjoitusta tulevaisuu
   1. **Simple interactions (like alerts on button click).**
   - Tämä varmaan täytyy ajastimessa joka aloitetaan heti sivun latauksessa joka laukaisee alertin nettisivulla joka kysyy käyttäjältä tykkääkö hän nettisivusta.
   - Myös contact sivun from antaa alertin jos viesti saadaan lähetettyä submit nappulan painamisen jälkeen jonka näkee edeltävässä demovideossa!
+
   ![Image of the alert](/READMEASSETS/alert.png)
   2. **Multiple event listeners and basic DOM manipulations.**
   - Nettisivulla on lomake elementti, 4 nappia, linkkejä jotka kaikki sisältävät kuuntelijoita. 
@@ -56,10 +57,12 @@ Hei, rakentamani prototyyppi portfolion on tarkoitus olla harjoitusta tulevaisuu
   - Funtioita taas on vähän joka paikassa.
   4. **Advanced logic, looping through data, and dynamic DOM updates.**
   - Voit dynaamisesti vaikutta DOM elementteihin galleriassa. Javascript tiedostotoissa molemmissa on logiikkaa ja loopeja!
-  - taulukon rakentaminen käyttää for lauseita headereiden ja paragraphien laittamiseen tablerow ja tableheader luokissa!
+  - Taulukon rakentaminen käyttää for lauseita headereiden ja paragraphien laittamiseen tablerow ja tableheader luokissa!
+  - Kuva esittelyn ImageTimer() funktio javascript.js tiedostossa sisältää foreach loopin.
   5. **Consistent use of Object-Oriented JavaScript principles.**
-  - Verkkosivun kuva galleriassa käytettiin molempia luokkia sekä objecteja jotka ohjaavat gallerian toiminnallisuutta. 
-  - Sillä minulla oli todella huono mielikuvitus käytin myös polymorphismia taulukkojen rakentamiseen jossa funktio SetToTable() on Tableheader luokassa headerin asettaja ja Tablerow luokassa normaalin tiedon asetttaja.
+  - Verkkosivun kuvagalleriassa käytettiin molempia luokkia sekä objecteja jotka ohjaavat gallerian toiminnallisuutta.
+  - Contact sivulla käytin myös luokkia lomakkeen logiikkaa rakentaessa ContactJs.js tiedostossa.
+  - Sillä minulla oli todella huono mielikuvitus käytin myös polymorphismia taulukkojen rakentamiseen jossa funktio SetToTable() on Tableheader luokassa headerin asettaja ja Tablerow luokassa normaalin tiedon asetttaja. Tämän löytää javascript.js tiedostosta!
 
   #  <span style="color:red;">ASYNCHRONOUS OPERATIONS</span>
   1. **Use of timers**
