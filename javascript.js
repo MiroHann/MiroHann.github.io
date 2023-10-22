@@ -4,7 +4,7 @@ var current = 0;
 const Images = ["./resources/images/Monkey-Selfie2.jpg", "./resources/images/Monkey-Selfie3.jpg", "./resources/images/Monkey-Selfie.jpg"];
 var Gallery; 
 function init(){
-    window.setTimeout(question, 200000);
+    window.setTimeout(question, 180000);
     ImageTimer(); 
     tableinit(); 
     Gallery.GalClickHandler();
