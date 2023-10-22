@@ -12,19 +12,19 @@ Hei, rakentamani prototyyppi portfolion on tarkoitus olla harjoitusta tulevaisuu
  - Verkkosivun html tiedostoissa on selvä erottelu!
  3. **Use of forms, links, and media**
  - Formin löytää contact.htm tiedostosta.
- - Linkkejä esiintyy kuvissa sekä otskikoissa, kuten otsikon ME alla olevasta kuvasta ja sivun pääotsikosta.
- - media löytyy pääsivulta kuvien muodossa galleriassa jossa on ensimmäisellä sivulla 2 kvuaa ja video sekä ME otsikon alta olevasta kuva esityksestä.
+ - Linkkejä esiintyy kuvissa sekä otsikoissa, kuten otsikon ME alla olevasta kuvasta ja sivun pääotsikosta.
+ - media löytyy pääsivulta kuvien muodossa galleriassa jossa on ensimmäisellä sivulla 2 kuvaa ja video sekä ME otsikon alta olevasta kuva esityksestä.
  4. **Tables are effectively used**
  - Tämän näkee Skills/hobbies osuuden alla jossa on esitetty taitoja taulukon muodossa.
- - Koodissa myös rakennan pöytää lisää Javascriptin kautta!
+ - Koodissa myös rakennan pöytää lisää Javascriptin kautta! Javascript.js Tablerow ja Tablehead luokissa.
  5. **Consistent use of semantic HTML throughout, ensuring better structure and understanding of the content.**
  - Htm tiedostossa on eroiteltu elementtejä merkitysoppin perusteella.
 
  #  <span style="color:lightblue;">CSS </span>
  1. **Basic CSS styling (colors, fonts).**
- - Tämän näkee jo heti nettisivun avatessa sillä värit ja fontit ovat muutettuja
+ - Tämän näkee jo heti nettisivun avatessa sillä värit ja fontit ovat muutettuja.
  2. **Use of classes and IDs to style specific elements.**
- - Avatessa Webstyle tai ContactStyle CSS teidostot voi niissä heti nähdä molempia toteutus tapoja! Käytin enemmän Class pohjaista osoitusta, mutta esimerkkinä responsiivisuuden ohjaavassa osiossa käytin myös hiukan ID pohjaista osoitusta!
+ - Avatessa Webstyle tai ContactStyle CSS teidostot voi niissä nähdä molempia toteutus tapoja! Käytin enemmän Class pohjaista osoitusta, mutta responsiivisuuden ohjaavassa osiossa käytin myös hiukan ID pohjaista osoitusta!
  ![Kuva ID pohjaisesta osoituksesta!](/READMEASSETS/IDOsoitus.png)
  3. **Implementation of responsive design elements.**
  - Nämä näkee vaihtaessa puheli näkymään jolloin etusivulla olevat elementit muutuvat tehdäkseen sivusta luettavamman. 
@@ -33,7 +33,7 @@ Hei, rakentamani prototyyppi portfolion on tarkoitus olla harjoitusta tulevaisuu
  - Pääotsikkon orientaatio muutuu myös täysin!
  ![Kuva ID pohjaisesta osoituksesta!](/READMEASSETS/Responsive.gif)
  4. **Use of layouts for advanced user interfaces (arrays, float, flexbox, css grid)**
- - Nettisivulla on käytetty molempia Flex-boxeja sekä Gridejä. 
+ - Nettisivulla on käytetty molempia Flex-boxeja sekä Gridejä. Gridin näkee index.htm tiedostostossa ja flex boxeja näkee molemmissa contact ja index sivuilla
  5. **Styling demonstrates a strong grasp of layout principles, aesthetics, and user experience.of the content.**
  - Olen todella huono frontendin tekemisessä sillä minulla ei yksinkertaisesti ole silmää aestetiikkaan, mutta toivottavasti se ei ole aivan hirveä! 
 
