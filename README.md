@@ -1,6 +1,6 @@
 
 # Prototyyppi Portfolio!
-Hei, rakentamani prototyyppi portfolion on tarkoitus olla harjoitusta tulevaisuutta varten! Verkko sivulta löytyy elementtejä jota löytäisi portfolio verkkosivulta kuten, tiedot taidot yms. Verrkosivulla on paljon paikanvaraaja kuvia, video ja tekstejä jotka joko hain netistä tai pyysin ChatGPT:tä generoimaan. Verkkosivun on pääosin tarkoitus osoittaa osaamisen kehitystä ja alta löytyy kaikki arvioiti kriteerit ja miten ne tättyy, kiitos!
+Hei, rakentamani prototyyppi portfolion on tarkoitus olla harjoitusta tulevaisuutta varten! Verkkosivulta löytyy elementtejä jota löytäisi portfolio verkkosivulta kuten, tiedot taidot yms. Verrkosivulla on paljon paikanvaraaja kuvia, video ja tekstejä jotka joko hain netistä tai pyysin ChatGPT:tä generoimaan. Verkkosivun on pääosin tarkoitus osoittaa osaamisen kehitystä ja alta löytyy kaikki arvioiti kriteerit ja miten ne tättyy, kiitos!
 
 # Vertais arviointia varten!
 
